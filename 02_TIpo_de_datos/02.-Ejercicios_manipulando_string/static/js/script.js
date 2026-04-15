@@ -47,7 +47,7 @@ console.log(`La palabra  ${lenguaje.toUpperCase()} tiene ${lenguaje.length} letr
 let mensaje = "Me encanta programar en JavaScript";
 console.log(`Mensaje incial: "${mensaje}"
     \nMensaje en minusculas "${mensaje.toLowerCase}".
-    \nBuscando palabra Javascript dentro: ${mensaje,includes("Javascript")}
+    \nBuscando palabra Javascript dentro: ${mensaje.includes("Javascript")}
     \nCantidad de caracteres en mensaje: ${mensaje.length}.`)
 
 //5️⃣ Lista con búsqueda y transformación
@@ -58,7 +58,7 @@ console.log(`Mensaje incial: "${mensaje}"
 //El texto completo en MAYÚSCULAS
 //La cantidad total de caracteres
 let compras = "arroz, fideos, aceite, sal.";
-console.log(`ls lista de compras ${compras.toUpperCase()} tiene ${compras.length} caracteres y`);
+console.log(`la lista de compras ${compras.toUpperCase()} tienen ${compras.length} Caracteres. y contiene la palabra "aceite": ${compras.includes("aceite")}`);
 
 //6️⃣ Conversión + análisis
 //Crea las variables:
@@ -69,6 +69,11 @@ console.log(`ls lista de compras ${compras.toUpperCase()} tiene ${compras.length
 //Mostrar el número convertido
 //Indicar su tipo de dato
 //Indicar cuántos caracteres tiene
+let numeroCasa = 456;
+let numeroCasaTexto = String(numeroCasa);
+console.log(`El número casa es: ${numeroCasaTexto}
+    \nTipo de dato: ${typeof numeroCasaTexto}
+    \nCantidad de caracteres: ${numeroCasaTexto.length}`);  
 
 //7️⃣ Identificación personal extendida
 //Crea las variables:
@@ -78,6 +83,11 @@ console.log(`ls lista de compras ${compras.toUpperCase()} tiene ${compras.length
 //Muestre el nombre completo
 //Indique cuántos caracteres tiene el nombre completo (incluyendo espacio)
 //Muestre todo en MAYÚSCULAS
+let nombre2 = "Diego";
+let apellido = "Rojas";
+let nombreCompleto = `${nombre2} ${apellido}`;
+console.log(`El nombre completo es: ${nombreCompleto.toUpperCase()}
+    \nCantidad de caracteres en el nombre completo: ${nombreCompleto.length}`);
 
 //8️⃣ Verificación de contenido
 //Crea la variable:
@@ -86,16 +96,24 @@ console.log(`ls lista de compras ${compras.toUpperCase()} tiene ${compras.length
 //Si contiene la palabra "strings"
 //La frase en MAYÚSCULAS
 //La cantidad de caracteres
+let frase = "Hoy aprenderemos sobre strings";
+console.log(`La frase "${frase}" contiene la palabra "strings": ${frase.includes("strings")}
+    \nFrase en mayúsculas: ${frase.toUpperCase()}
+    \nCantidad de caracteres: ${frase.length}`);
 
 //9️⃣ Comparación de formatos
 //Crea la variable:
-//
 //texto: Programar es divertido
 //Debes mostrar en un solo mensaje:
 //El texto original
 //El texto en minúsculas
 //El texto en mayúsculas
 //La cantidad de caracteres
+let texto = "Programar es divertido";
+console.log(`Texto original: ${texto}
+    \nTexto en minúsculas: ${texto.toLowerCase()}
+    \nTexto en mayúsculas: ${texto.toUpperCase()}
+    \nCantidad de caracteres: ${texto.length}`);
 
 //🔟 Desafío completo integrado
 //Crea las variables:
@@ -106,3 +124,9 @@ console.log(`ls lista de compras ${compras.toUpperCase()} tiene ${compras.length
 //Convierta el año a texto
 //Indique el tipo de dato del año convertido
 //Muestre todo el mensaje en MAYÚSCULAS
+let curso = "4C";
+let anio = 2026;
+let anioTexto = String(anio);
+console.log(`El curso es: ${curso} y el año es: ${anioTexto.toUpperCase()}
+    \nTipo de dato del año convertido: ${typeof anioTexto}
+    \nCantidad de caracteres: ${anioTexto.length}`);
