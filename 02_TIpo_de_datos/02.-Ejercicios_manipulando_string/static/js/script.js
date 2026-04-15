@@ -45,8 +45,10 @@ console.log(`La palabra  ${lenguaje.toUpperCase()} tiene ${lenguaje.length} letr
 //Verifique si contiene la palabra "JavaScript"
 //Muestre el mensaje completo en minúsculas
 let mensaje = "Me encanta programar en JavaScript";
-console.log(`el mensaje ${mensaje.toLowerCase()} tiene ${mensaje.length} caracteres.
-\nSu tipo de dato es. ${typeof lenguaje}`)
+console.log(`Mensaje incial: "${mensaje}"
+    \nMensaje en minusculas "${mensaje.toLowerCase}".
+    \nBuscando palabra Javascript dentro: ${mensaje,includes("Javascript")}
+    \nCantidad de caracteres en mensaje: ${mensaje.length}.`)
 
 //5️⃣ Lista con búsqueda y transformación
 //Crea la variable:
