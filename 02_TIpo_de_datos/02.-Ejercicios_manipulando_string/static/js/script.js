@@ -117,14 +117,14 @@ console.log(`Texto original: ${texto}
 
 //🔟 Desafío completo integrado
 //Crea las variables:
-//curso: 4C
+//curso: 3C
 //anio: 2026
 //Debes mostrar un mensaje que:
 //Indique el curso y año
 //Convierta el año a texto
 //Indique el tipo de dato del año convertido
 //Muestre todo el mensaje en MAYÚSCULAS
-let curso = "4C";
+let curso = "3C";
 let anio = 2026;
 let anioTexto = String(anio);
 console.log(`El curso es: ${curso} y el año es: ${anioTexto.toUpperCase()}
