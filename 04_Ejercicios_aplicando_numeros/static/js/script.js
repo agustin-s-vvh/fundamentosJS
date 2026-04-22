@@ -19,9 +19,9 @@ function edadProyectada() {
 // Muestra el resultado
 
 function compraDescuento() {
-    let precioOriginal = 25000;
-    let descuento = 0.20;
-    alert(``); //alerta en pantalla
+    let precio = 25000;
+alert(`El precio es de: ${precio}
+    \nPero con descuento: ${precio - (precio * 0.20)}`); //alerta en pantalla
 }
 
 // 🔹 Ejercicio 3: Promedio de notas
@@ -30,7 +30,13 @@ function compraDescuento() {
 // Redondea el resultado usando Math.round()
 
 function promedioNotas() {
-    alert("Botón funcionando..."); //alerta en pantalla
+    let nota1 = 7.5;
+    let nota2 = 8.3;
+    let nota3 = 6.9;
+    let promedio = (nota1 + nota2 + nota3) / 3;
+    alert(`Se tiene 3 notas ${nota1}, ${nota2}, ${nota3}
+        \nEl promedio de estas es: ${promedio}
+        \nY redondeado seria ${Math.round(promedio)}`); //alerta en pantalla
 }
 
 // 🔹 Ejercicio 4: Temperatura
@@ -40,7 +46,12 @@ function promedioNotas() {
 // Muestra el resultado final
 
 function calcularTemperatura() {
-    alert("Botón funcionando..."); //alerta en pantalla
+    let temperatura = 15; // Temperatura actual en grados Celsius
+    let aumentada = temperatura + 3; // Aumenta en 3 grados
+    let disminuida = aumentada - 5; // Disminuye en 5 grados
+    alert(`Temperatura actual: ${temperatura}°C
+    \nDespués de aumentar 3 grados: ${aumentada}°C
+    \nDespués de disminuir 5 grados: ${disminuida}°C`); //alerta en pantalla
 }
 
 // 🔹 Ejercicio 5: Sueldo semanal
@@ -50,7 +61,15 @@ function calcularTemperatura() {
 // Muestra el nuevo sueldo
 
 function calcularSueldo() {
-    alert("Botón funcionando..."); //alerta en pantalla
+    let sueldoPorHora = 8000;
+    let horasTrabajadas = 45;
+    let sueldo = sueldoPorHora * horasTrabajadas;
+    let horasExtra = 5;
+    let sueldoExtra = horasExtra * sueldoPorHora;
+    let nuevoSueldo = sueldo + sueldoExtra;
+    alert(`Sueldo por 45 horas: ${sueldo}
+    \nSueldo por 5 horas extra: ${sueldoExtra}
+    \nNuevo sueldo total: ${nuevoSueldo}`); //alerta en pantalla
 }
 
 // 🔹 Ejercicio 6: División y resto
@@ -60,7 +79,12 @@ function calcularSueldo() {
 // Explica el resultado en consola
 
 function divisionResto() {
-    alert("Botón funcionando..."); //alerta en pantalla
+    let numero1 = 10;
+    let numero2 = 3;
+    let division = numero1 / numero2;
+    let resto = numero1 % numero2;
+    alert(`División: ${numero1} / ${numero2} = ${division}
+    \nResto: ${numero1} % ${numero2} = ${resto}`); //alerta en pantalla
 }
 
 // 🔹 Ejercicio 7: Comparación de números
@@ -69,7 +93,12 @@ function divisionResto() {
 // Verifica si uno de ellos es igual a 10
 
 function compararNumeros() {
-    alert("Botón funcionando..."); //alerta en pantalla
+    let numero1 = 15;
+    let numero2 = 10;
+    let comparacion = numero1 > numero2 ? "es mayor que" : "no es mayor que";
+    let esIgualA10 = (numero1 === 10 || numero2 === 10) ? "Sí, uno de los números es igual a 10" : "No, ninguno de los números es igual a 10";
+    alert(`Comparación: ${numero1} ${comparacion} ${numero2}
+    \n${esIgualA10}`); //alerta en pantalla
 }
 
 // 🔹 Ejercicio 8: Notación científica aplicada
@@ -79,7 +108,12 @@ function compararNumeros() {
 // Muestra el resultado
 
 function notacionCientifica() {
-    alert("Botón funcionando..."); //alerta en pantalla
+    let poblacion = 1e6; // Población de 1 millón
+    let grupos = 4;
+    let poblacionPorGrupo = poblacion / grupos;
+    alert(`Población total: ${poblacion}
+    \nNúmero de grupos: ${grupos}
+    \nPoblación por grupo: ${poblacionPorGrupo}`); //alerta en pantalla
 }
 
 // 🔹 Ejercicio 9: Potencia y cálculo combinado
@@ -89,7 +123,13 @@ function notacionCientifica() {
 // Resta 10 al resultado final
 
 function potenciaCalculo() {
-    alert("Botón funcionando..."); //alerta en pantalla
+    let base = 3;
+    let exponente = 4;
+    let potencia = Math.pow(base, exponente);
+    let resultado = (potencia * 2) - 10;
+    alert(`3 elevado a 4: ${potencia}
+    \nMultiplicado por 2: ${potencia * 2}
+    \nResultado final después de restar 10: ${resultado}`); //alerta en pantalla
 }
 
 // 🔹 Ejercicio 10: Dado aleatorio 🎲
@@ -99,5 +139,8 @@ function potenciaCalculo() {
 // Indica si el número es mayor o igual a 4 (gana) o menor (pierde)
 
 function lanzarDado() {
-    alert("Botón funcionando..."); //alerta en pantalla
+    let dado = Math.floor(Math.random() * 6) + 1; // Genera un número entre 1 y 6
+    let resultado = dado >= 4 ? "¡Gana!" : "Pierde";
+    alert(`Número del dado: ${dado}
+    \nResultado: ${resultado}`); //alerta en pantalla
 }
