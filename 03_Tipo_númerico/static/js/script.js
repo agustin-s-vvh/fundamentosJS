@@ -50,3 +50,16 @@ console.log(`El sueldo base es: ${sueldo}.`);
 //7.- Redondeo de números
 console.log(`Redondeando 4.6: ${Math.round(4.6)}.`); //5
 console.log(`Redondeando 4.3: ${Math.floor(4.3)}.`); //4
+
+//8.- Números aleatorios
+let aleatorio = Math.random(); //Número entre 0 y 1
+let dado = Math.floor(Math.random() * 6) + 1; //Número entre 1 y 6
+console.log(`Tirar dados: ${dado}.`)
+
+//9.- comparacion númericas
+let a = 10;
+let b = 5;
+console.log ( a > b); //true
+console.log ( a < b); //false
+console.log ( a === 10); //true (=== estricta igualdad)
+console.log(b === 3); //false
