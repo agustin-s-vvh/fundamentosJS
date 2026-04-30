@@ -32,14 +32,7 @@ function ejercicio12() {
 // `El correo convertido es: ejemplo@gmail.com y el resultado es: correo válido`
 
 function ejercicio13() {
-    let correo = "dantebañatesucio@gmail.com";
-    if (correo.length > 15) {
-            alert(`El correo tiene 15 caracteres o más, el correo convertido es: ${correo} y el resultado es: correo válido`);
-        } else { 
-            alert(`El correo contiene 15 caracteres o menos, el correo convertido es: ${correo} y el resultado es: correo inválido`);
-    } else {
-        alert(`El correo convertido es: ${correo} y el resultado es: correo inválido`);
-    }
+
 }
 
 

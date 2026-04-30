@@ -6,7 +6,7 @@ console.log("Conexión exitosa con js...");
 
 function ejercicio1() {
 let nombre = "Agustín";
-alert(`BIenvenido ${nombre}`);
+alert(`Bienvenido ${nombre}`);
 }
 
 
@@ -66,7 +66,7 @@ alert(`El promedio es: ${promedio}`)
 function ejercicio6() {
 let edad = 18;
 
-if(edad >= 18) {
+if(edad <= 18) {
     alert(`Eres mayor de edad`)
 } else {
     alert(`Eres menor de edad`)
