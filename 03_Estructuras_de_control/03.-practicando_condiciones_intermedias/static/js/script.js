@@ -124,3 +124,16 @@ function ejercicio16() {
 // Cantidad de caracteres del nombre
 // Promedio
 // Estado final
+
+let n1 = "2.9"
+let n2 = "7.0"
+let n3 = "6.7"
+let promedio = (n1 + n2 + n3) / 3;
+let nombreMayusculas = nombre.toUpperCase();
+if (promedio >= 6){
+    alert(`El estudiante ${nombreMayusculas} esta destacado.
+        \nPromedio: ${promedio}.
+        \nLargo nombre: ${nombre.length}`)
+} else if (promedio >= 4){
+    alert(`El estudiante `)
+}
